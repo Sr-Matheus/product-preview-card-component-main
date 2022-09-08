@@ -13,6 +13,7 @@
 
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -35,19 +36,23 @@ p{
 main
 {
     display: flex;
-    justify-content: space-evenly;
-    max-width: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-content
 {
     background-color: var(--white);
     border-radius: 0 10px 10px 0;
+    width: 500px;
 }
 
 .image-content > img
 {
     border-radius: 10px 0 0 10px;
+    width: 500px;
+    overflow: hidden;
+    
 }
 
 #new-price
