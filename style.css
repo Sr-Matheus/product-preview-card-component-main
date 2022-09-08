@@ -49,7 +49,7 @@ main
     background-color: var(--white);
     border-radius: 0 10px 10px 0;
     height: 450px;
-    width: 350px;
+    width: 300px;
     padding: 3% 2%;
 }
 
@@ -103,16 +103,25 @@ button
 {
     background-color: var(--dark-cyan);
     color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     border: none;
-    width: 300px;
+    width: 250px;
     height: 50px;
     border-radius: 10px;
     margin-top: 2%;
+    align-items: center;
+    cursor: pointer;
 }
 
+button > img 
+{
+    margin-right: 10px;
+}
 
 footer 
 {
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
     width: 100%;
     bottom: 0;
