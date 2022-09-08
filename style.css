@@ -23,6 +23,7 @@
 body
 {
     background-color: var(--cream);
+    align-items: center;
 }
 
 h1{
@@ -40,7 +41,7 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20vh;
+    margin-top: 20vh;
     
 }
 
@@ -49,7 +50,7 @@ main
     background-color: var(--white);
     border-radius: 0 10px 10px 0;
     height: 450px;
-    width: 300px;
+    width: 350px;
     padding: 3% 2%;
 }
 
@@ -71,7 +72,7 @@ main
 
 #title-perfume
 {
-    margin: -5% 0 2% 0;
+    margin: -20px 0 20px 0;
     letter-spacing: .45rem;
 }
 
