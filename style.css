@@ -22,8 +22,11 @@
 
 body
 {
-    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-color: var(--cream);
     height: 100vh;
 }
 
@@ -42,7 +45,6 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
     
 }
 
@@ -70,12 +72,12 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
- width: 300px;
+    width: 300px;
 }
 
 #title-perfume
 {
-    margin-top: -30px;
+    margin-top: -20px;
     letter-spacing: .45rem;
 }
 
@@ -83,7 +85,7 @@ main
 .price
 {
     display: flex;
-    justify-items: space-around;
+    justify-items: center;
     align-items: center;
     margin: 5%;
 }
@@ -101,6 +103,14 @@ main
     text-decoration: line-through;
     margin-left: 20px;
 
+}
+
+.buy-button
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button
