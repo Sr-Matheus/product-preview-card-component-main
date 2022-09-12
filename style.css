@@ -153,6 +153,12 @@ main
  width: 300px;
 }
 
+#title-perfume
+{
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
 .text-content
 {
     padding: 20px;
